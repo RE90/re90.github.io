@@ -1,0 +1,39 @@
+@font-face{
+font-family: 'DIN';
+src: url("fonts/DINMittelschriftStd.otf") format("opentype");
+}
+* {
+ 	font-family: "DIN" !important;
+	font-size: 14px!important;
+	color:#ffffff!important;
+}
+.ltc-white{
+font-family: "DIN" !important;
+font-size: 17px!important;
+color:#ffffff!important;
+}
+.frameless-lb .modal-body{
+padding: 0px;
+padding-bottom:15px;
+background: #1a1a1a;
+}
+.lightbox-caption{
+padding: 10px;
+background: rgba(0,0,0,0);
+padding-left: 20px;
+color: #fff;
+/*background-color: rgba(0,0,0,0.1);*/
+position: relative;
+left: 0px;
+right: 0px;
+bottom: 0px;
+top: 10px;
+display:inline;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+	font-family: "DIN" !important;
+	font-size: 16px!important;
+	color:#ffffff!important;
+}
